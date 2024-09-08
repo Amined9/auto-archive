@@ -1,7 +1,11 @@
 @include('Layouts.header')
+    <div class="h-screen">
+        @include("Components.Sidebar")
+        <div >
 
-<h1 class="text-3xl">
-    Hello world!
-</h1>
+        </div>
+    </div>
+
+
 
 @include('Layouts.footer')
