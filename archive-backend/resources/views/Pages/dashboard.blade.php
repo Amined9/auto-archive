@@ -2,9 +2,9 @@
     <div class="h-screen">
         @include("Components.Navbar")
         @include("Components.Sidebar")
-        <div >
 
-        </div>
+        @include("Components.Car")
+
     </div>
 
 
