@@ -1,4 +1,4 @@
-<div class="ml-80">
+<div class="mt-20">
     <table id="selection-table" >
     <thead>
         <tr>

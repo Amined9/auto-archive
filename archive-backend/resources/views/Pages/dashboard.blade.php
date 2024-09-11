@@ -1,9 +1,12 @@
 @include('Layouts.header')
     <div class="h-screen">
         @include("Components.Navbar")
-        @include("Components.Sidebar")
+        <div class="flex flex-row">
+            @include("Components.Sidebar")
 
-        @include("Components.Car")
+            @include("Components.Car")
+        </div>
+
 
     </div>
 
