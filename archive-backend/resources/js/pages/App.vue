@@ -2,8 +2,9 @@
     <div class="h-screen">
         <Navbar></Navbar>
         <div class="flex flex-row">
-            <Sidebar></Sidebar>
+            <Sidebar @show="showComponent" @hide="hideAll" ></Sidebar>
             <Car v-if="visibleComponent === 'car'" />
+            <p class="ml-96 mt-20 ">Composant affiché : {{ visibleComponent || 'Aucun' }}</p>
         </div>
         <router-view></router-view> <!-- C'est ici que les composants vont s'afficher -->
     </div>
